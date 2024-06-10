@@ -1,5 +1,4 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
-require('dotenv').config();
 
 const exchangesApiHeaders = {
   'x-rapidapi-key': process.env.REACT_APP_RAPID_API_KEY,
