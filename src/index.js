@@ -8,7 +8,7 @@ import store from './app/store'
 
 
 ReactDOM.render(
-  <Router>
+  <Router basename='/Cryptos'>
     <Provider store={store}>  
       <App />
     </Provider>
